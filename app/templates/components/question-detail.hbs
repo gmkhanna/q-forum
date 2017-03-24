@@ -9,7 +9,15 @@
 <h3 class="question-elaboration">{{question.notes}}</h3>
 </div>
 
-  <div class="q-crud">
+<div class="answer-tile">
+  <h3>Contributions</h3>
+  <ul>
+    {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+    {{/each}}
+  </ul>
+</div>
+
+
     <button {{action 'delete' question}}>Poof!</button>
     <br>
-  </div>
