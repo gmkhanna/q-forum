@@ -1,12 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model(){
+  model() {
     return this.store.findAll('question');
   },
 
   actions : {
-    destroyQuestion('question') {
+    destroyQuestion(question) {
       question.destroyRecord();
       this.transitionTo('index');
     }
