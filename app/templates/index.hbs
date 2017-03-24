@@ -2,3 +2,10 @@
 
 <h2>Life's Questions</h2>
 <h3>Ask People About Your Biggest Questions On Life; Philosophize!</h3>
+
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question destroyRental="destroyRental"}}
+  {{/each}}
+</ul>
