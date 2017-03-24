@@ -1,12 +1,15 @@
 
 
-<h2>Question: {{question.content}}</h2>
+<div class="row well">
 
-<h3>Here is an elaborationon the question.<hr>
-  {{question.notes}}</h3>
+<h2 class="question-content">{{question.content}}</h2>
 
-<hr><hr>
+<hr><hr><br>
+
+<h3 class="question-elaboration">{{question.notes}}</h3>
+</div>
+
   <div class="q-crud">
     <button {{action 'delete' question}}>Poof!</button>
-
+    <br>
   </div>

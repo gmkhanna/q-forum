@@ -1,7 +1,10 @@
 
-<h2>{{question.author}} asks the forum a question.</h2>
 
+<div class="row well">
+  <h3>{{model.author}}</h3><h2>asks the forum a question.</h2>
+</div>
 
+<br><br>
+{{question-detail question=model destroyQuestion="destroyQuestion"}}
+<br>
 {{update-question question=model update='update'}}
-
- {{question-detail quesiton=model destroyQuestion="destroyQuestion"}}

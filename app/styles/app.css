@@ -24,3 +24,18 @@
   box-shadow: 3px 3px 5px blue;
   outline: 5px lightblue;
 }
+
+.question-content {
+  background-color: #76C2FF;
+  padding: 2%;
+  border-radius: 20px;
+}
+.question-elaboration {
+  background-color: #76C2FF;
+  padding: 4%;
+  border-radius: 20px;
+}
+
+.newQ-form {
+  position: fixed;
+}
