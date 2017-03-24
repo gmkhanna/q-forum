@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+    apiKey: "AIzaSyB8-nKUPyG09ziC6pNDmTMtOWxu9BDYIZo",
+    authDomain: "q-forum-4ece2.firebaseapp.com",
+    databaseURL: "https://q-forum-4ece2.firebaseio.com",
+    storageBucket: "q-forum-4ece2.appspot.com",
+    messagingSenderId: "1061286490818"
+},
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
