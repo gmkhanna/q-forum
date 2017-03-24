@@ -1,0 +1,19 @@
+
+
+
+
+
+.entire-tile {
+}
+
+.each-tile {
+  border: 2px solid purple;
+  padding: 2%;
+  margin-top: 2%;
+  box-shadow: 3px 3px 5px purple;
+}
+
+.each-tile:hover {
+  box-shadow: 3px 3px 5px blue;
+  outline: 5px lightblue;
+}

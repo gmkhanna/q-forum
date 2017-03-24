@@ -3,9 +3,29 @@
 <h2>Life's Questions</h2>
 <h3>Ask People About Your Biggest Questions On Life; Philosophize!</h3>
 
+<div class="row">
+  </div>
 
-<ul>
-  {{#each model as |question|}}
-    {{question-tile question=question destroyQuestion="destroyQuestion"}}
-  {{/each}}
-</ul>
+
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="newQ-form well">
+      <h3>New Question AREA</h3>
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <div>
+      <ul class="entire-tile well">
+        {{#each model as |question|}}
+        {{question-tile question=question destroyQuestion="destroyQuestion"}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+<!--
+<div class="new-question">
+  <h2>Ask a Question</h2>
+  {{new-question saveQuestion="saveQuestion"}}
+</div> -->
