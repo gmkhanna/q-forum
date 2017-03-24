@@ -1,0 +1,21 @@
+
+{{#if updateQuestionForm}}
+
+<h3>Edit Question</h3>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="content">Question</label>
+      {{input value=content id="content"}}
+    </div>
+    <div class="form-group">
+      <textarea for="notes">Elaboration</label>
+      {{input value=notes id="notes"}}
+    </div>
+    <button {{action 'update' question}}>Remix</button>
+  </form>
+</div>
+
+{{else}}
+<button {{action 'updateQuestionForm'}}>Re-Thought</button>
+{{/if}}
