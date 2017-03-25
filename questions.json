@@ -6,13 +6,20 @@
     "content": "There will be a philosophical quesiton here?",
     "author": "Booker-T",
     "notes": "This is a notes section where authors of quesitons can go deeper into detail about the question asked."
-  }, {
-    "content": "There will be a philosophical quesiton here?",
-    "author": "Arthur Q-Life",
-    "notes": "This is a notes section where authors of quesitons can go deeper into detail about the question asked."
-  }, {
-    "content": "There will be a philosophical quesiton here?",
-    "author": "Camron Nerd",
-    "notes": "This is a notes section where authors of quesitons can go deeper into detail about the question asked."
+    }, {
+      "content": "There will be a philosophical quesiton here?",
+      "author": "Arthur Q-Life",
+      "notes": "This is a notes section where authors of quesitons can go deeper into detail about the question asked."
+      }, {
+        "content": "There will be a philosophical quesiton here?",
+        "author": "Camron Nerd",
+        "notes": "This is a notes section where authors of quesitons can go deeper into detail about the question asked."
+        }],
+  "answers": [{
+    "author": "scrilla Z",
+    "content": "I have all the answers to that."
+    }, {
+    "author": "pete Rock ",
+    "content": "My beats will give you all answers."
   }]
 }

@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         content: this.get('content'),
         question: this.get('question')
       };
-      this.transitionTo('question');
+      this.sendAction('saveAnswer', params);
     }
   }
 });
