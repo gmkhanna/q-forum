@@ -4,13 +4,13 @@
   <div>
     <form>
       <div class="form-group">
-        <label for="author">Contributor</label>
-        {{input value=author id="author"}}
+        <label for="contributor">Contributor</label>
+        {{input value=contributor id="contributor"}}
       </div>
       <div class="form-group">
         <label for="content">Contribution</label>
         {{textarea value=content id="content"}}
       </div>
-      <button {{action 'saveAnswer'}}>Save</button>
+      <button {{action 'saveAnswer' model}}>Save</button>
     </form>
   </div>

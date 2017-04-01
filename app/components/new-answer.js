@@ -2,9 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    saveAnswer() {
+    saveAnswer(model) {
       var params = {
-        author: this.get('author'),
+        contributor: this.get('contributor'),
         content: this.get('content'),
         question: this.get('question')
       };

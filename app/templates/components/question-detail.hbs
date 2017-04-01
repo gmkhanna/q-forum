@@ -2,7 +2,7 @@
 
 <div class="row well">
 
-<h2 class="question-content">{{question.content}}</h2>
+<h2 class="question-body">{{question.body}}</h2>
 
 <hr><hr><br>
 
@@ -12,8 +12,8 @@
 <div class="answer-tile">
   <h3>Contributions</h3>
   <ul>
-    {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{#each model.answers as |answer|}}
+    {{answer-tile model=answer}}
     {{/each}}
   </ul>
 </div>
