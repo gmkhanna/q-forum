@@ -12,8 +12,8 @@
 <div class="answer-tile">
   <h3>Contributions</h3>
   <ul>
-    {{#each model.answers as |answer|}}
-    {{answer-tile model=answer}}
+    {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
     {{/each}}
   </ul>
 </div>
